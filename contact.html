@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you! Please feel free to reach out with any questions or feedback.</p>
+    </header>
+
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+
+            <form>
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required><br><br>
+
+                <label for="phone">Phone Number :</label><br>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required><br><br>
+
+                <label for="subject">Subject:</label><br>
+                <select id="subject" name="subject" required>
+                    <option value="">-- Select a Subject --</option>
+                    <option value="general">General Inquiry</option>
+                    <option value="appointment">Book An Appointment</option>
+                    <option value="support">Technical Support</option>  
+                    <option value="feedback">Feedback</option>
+                    <option value="other">Other</option>  
+                </select>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" placeholder="Enter your message here..." required></textarea><br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section class="schedule">
+            <h2>Available Support Hours</h2>
+
+            <table>
+                        <tr>
+                            <th>Day</th>
+                            <th>Time</th>
+                            <th>Availability</th>
+                        </tr>
+                     
+                        <tr>
+                            <td>Monday</td>
+                            <td>09:00 - 18:00</td>
+                            <td>Available</td>
+                        </tr>
+
+                        <tr>
+                            <td>Tuesday</td>
+                            <td>09:00  - 13:00 </td>
+                            <td>Available</td>
+                        </tr>
+
+                        <tr>
+                        <td>Wednesday</td>
+                        <td>14:00 - 16:00 </td>
+                        <td>Booked</td>
+                        </tr>
+
+                        <tr>  
+                        <td>Thursday</td>
+                        <td>12:00 - 14:00 </td>
+                        <td>Booked</td>
+                        </tr>
+
+                        <tr>
+                            <td>Friday</td>
+                            <td>15:00 - 18:00 </td>
+                            <td>Booked</td>
+                        </tr>
+                </table>
+        </section>
+</body>
+</html>
